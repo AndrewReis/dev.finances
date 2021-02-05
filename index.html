@@ -3,9 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Dev Finances</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <header>
+    <h1 id="logo" >dev.finances$</h1>
+  </header>
+
+  <main class="container" >
+    <section id="balance-container" >
+      <h2>Balanço</h2>
+      
+      <div class="card" >
+        <h3>Entradas</h3>
+        <p>R$5.000,00</p>
+      </div>
+
+      <div class="card">
+        <h3>Saídas</h3>
+        <p>-R$2.000,00</p>
+      </div>
+
+      <div class="card total">
+        <h3>Total</h3>
+        <p>R$3.000,00</p>
+      </div>
+    </section>
+    
+    <section id="transactions-container">
+      <h2>Transações</h2>
+
+      <table id="data-table" >
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="description">Luz</td>
+            <td class="outcome">R$500,00</td>
+            <td class="date">23/01/2021</td>
+          </tr>
+          <tr>
+            <td class="description">Criação de Website</td>
+            <td class="income">R$200,00</td>
+            <td class="date">01/01/2021</td>
+          </tr>
+          <tr>
+            <td class="description">Net</td>
+            <td class="outcome">R$100,00</td>
+            <td class="date">23/01/2021</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>dev.finances$</p>
+  </footer>
 </body>
 </html>
