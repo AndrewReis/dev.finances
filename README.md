@@ -4,7 +4,7 @@
 
 
 <h1 align="center">
-  <img alt="Banner" title="#Banner" src="" />
+  <img alt="Banner" title="#Banner" src="https://github.com/AndrewReis/dev.finances/blob/master/assets/images/dev.finances.gif" />
 </h1>
 
 <p align="center">  .... </p>
@@ -18,7 +18,7 @@
 </p>
 
 <h4 align="center"> 
-	🚀  Projeto em Andamento.  🚀
+	🚀  Projeto Finalizado.  🚀
 </h4>
 
 
@@ -26,7 +26,9 @@
 
 
 <p align="center">
-	 ....
+	 Projeto desenvolvido na maratona discover para aprofundar os conceitos básicos de HTML, CSS e JS, na prática. Apresentado pelo instrutor Mayk Brito.
+	acesse as video-aulas: 
+	[Discover](https://www.youtube.com/watch?v=NlDr6JX3VvA)
 </p>
 	
 
@@ -35,9 +37,9 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [HTML](https://nodejs.org/en/)
-- [CSS3](https://pt-br.reactjs.org/)
-- [JavaScript](https://reactnative.dev/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://www.w3schools.com/css/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 
 <h1 id='features'> ✔️ Features </h1>
@@ -49,7 +51,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 <h1 align="center">
-  <img alt="Banner" title="#Banner" src="" />
+  <img alt="Banner 02" title="#Banner 02" src="https://github.com/AndrewReis/dev.finances/blob/master/assets/images/dev.finances-02.png" />
 </h1>
 
 
@@ -67,7 +69,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <>
+$ git clone <https://github.com/AndrewReis/dev.finances.git>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd dev.finances
