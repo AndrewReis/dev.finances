@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header>
     <img src="./assets/logo.svg" alt="Logo dev.finances$">
   </header>
 
-  <main class="container" >
-    <section id="balance-container" >
-      <h2 class="sr-only" >Balanço</h2>
-      
-      <div class="card" >
+  <main class="container">
+    <section id="balance-container">
+      <h2 class="sr-only">Balanço</h2>
+
+      <div class="card">
         <h3>
           <span>Entradas</span>
           <img src="./assets/income.svg" alt="Imagem de Entrada">
         </h3>
-        <p id="incomeDisplay" >0,00</p>
+        <p id="incomeDisplay">0,00</p>
       </div>
 
       <div class="card">
@@ -41,13 +43,13 @@
         <p id="totalDisplay">0,00</p>
       </div>
     </section>
-    
+
     <section id="transactions-container">
       <h2 class="sr-only">Transações</h2>
-      <a href="#" class="button new" onclick="Modal.open()" >
+      <a href="#" class="button new" onclick="Modal.open()">
         + Nova Transação
       </a>
-      <table id="data-table" >
+      <table id="data-table">
         <thead>
           <tr>
             <th>Descrição</th>
@@ -82,27 +84,27 @@
 
   <div class="modal-overlay ">
     <div class="modal">
-      <form action="" onsubmit="Form.submit(event)" >
+      <form action="" onsubmit="Form.submit(event)">
         <h2>Nova Transação</h2>
         <div class="input-group">
           <label class="sr-only" for="description">Descrição</label>
-          <input type="text" placeholder="Descrição" id="description" name="description" >
+          <input type="text" placeholder="Descrição" id="description" name="description">
         </div>
         <div class="input-group">
           <label class="sr-only" for="amount">Descrição</label>
-          <input type="number" placeholder="0,00" id="amount" name="amount" step="0.01" >
+          <input type="number" placeholder="0,00" id="amount" name="amount" step="0.01">
         </div>
-        <small class="help" >
+        <small class="help">
           Use o sinal de - (negativo) para despesas e , (vírgula)
           para casas decimais.
         </small>
         <div class="input-group">
           <label class="sr-only" for="date">Data</label>
-          <input type="date" id="date" name="date" >
+          <input type="date" id="date" name="date">
         </div>
 
         <div class="input-group actions">
-          <a href="#" class="button cancel" onclick="Modal.close()" >Cancelar</a>
+          <a href="#" class="button cancel" onclick="Modal.close()">Cancelar</a>
           <button> Salvar </button>
         </div>
       </form>
@@ -115,4 +117,5 @@
 
   <script src="scripts.js"></script>
 </body>
+
 </html>
