@@ -7,7 +7,6 @@
   <img alt="Banner" title="#Banner" src="https://github.com/AndrewReis/dev.finances/blob/master/assets/images/dev.finances.gif" />
 </h1>
 
-<p align="center">  .... </p>
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> &nbsp&nbsp&nbsp
@@ -27,8 +26,7 @@
 
 <p align="center">
 	 Projeto desenvolvido na maratona discover para aprofundar os conceitos básicos de HTML, CSS e JS, na prática. Apresentado pelo instrutor Mayk Brito.
-	acesse as video-aulas: 
-	[Discover](https://www.youtube.com/watch?v=NlDr6JX3VvA)
+	acesse as video-aulas: (https://www.youtube.com/watch?v=NlDr6JX3VvA)
 </p>
 	
 
